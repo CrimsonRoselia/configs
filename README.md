@@ -4,16 +4,16 @@ This README would normally document whatever steps are necessary to get your app
 
 ### What is this repository for? ###
 
-* Don't fucking know m8
+* Don't fucking know m8.
 
 ### How do I get set up? ###
 
-* Download it
+* Download it.
 
 ### Contribution guidelines ###
 
-* No
+* No.
 
 ### Who do I talk to? ###
 
-* Uh, i dont know
+* Uh, I dont know.

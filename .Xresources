@@ -2,60 +2,49 @@
 URxvt*.scrollBar: false
 URxvt*.secondaryScroll: true
 URxvt*.perl-ext-common: default,matcher,clipboard,url-select,keyboard-select
-! URxvt*.url-launcher: /usr/bin/firefox
+URxvt*.loginShell: true
+URxvt*.url-launcher: /usr/bin/firefox
 URxvt*.matcher.button: 1
 URxvt*.background: [80]#000000
 URxvt*.foreground: grey90
 URxvt*.cursorColor: Green
-URxvt*.font: xft:Terminus:pixelsize=14
+URxvt*.font: xft:Terminus:pixelsize=9,xft:Terminusmod:pixelsize=9,xft:Ubuntu Mono:pixelsize=9,xft:DejaVu Sans Mono:pixelsize=9
+URxvt*.boldFont: xft:Terminusmod:bold:pixelsize=9,xft:Ubuntu Mono:bold:pixelsize=9,xft:DejaVu Sans Mono:bold:pixelsize=9 
+URxvt*.italicFont: xft:Terminusmod:italic:pixelsize=9,xft:Ubuntu Mono:italic:pixelsize=9,xft:DejaVu Sans Mono:italic:pixelsize=9
+URxvt*.boldItalicFont: xft:Terminusmod:bold:italic:pixelsize=9,xft:Ubuntu Mono:bold:italic:pixelsize=9,xft:DejaVu Sans Mono:bold:italic:pixelsize=9
 URxvt*.colorUL: #00D1FF
 URxvt*.depth: 32
 URxvt*.shading: 20
 
 ! Perls config
 
-URxvt.url-select.launcher:  firefox
-URxvt.url-select.underline: true
-URxvt.keysym.M-u:           perl:url-select:select_next
-URxvt.keysym.M-Escape:      perl:keyboard-select:activate
-URxvt.keysym.M-s:           perl:keyboard-select:search
+URxvt*.url-select.launcher:  chromium
+URxvt*.url-select.underline: true
+URxvt*.keysym.M-u:           perl:url-select:select_next
+URxvt*.keysym.M-Escape:      perl:keyboard-select:activate
+URxvt*.keysym.M-s:           perl:keyboard-select:search
 
-! black
-*color0: #222946
-! dark grey
-*color8: #8C8B89
- 
+
+URxvt*color0  : #2E3436
+URxvt*color8  : #555753
 ! red
-*color1: #B32323
-! bright red
-*color9: #DC2C2C
- 
+URxvt*color1  : #a31604
+URxvt*color9  : #c60001
 ! green
-*color2: #1AAA13
-! bright green
-*color10: #5DCE33
- 
+URxvt*color2  : #447241
+URxvt*color10 : #27a343
 ! yellow
-*color3: #FF9F3E
-! bright yellow
-*color11: #E6CB29
- 
+URxvt*color3  : #c1951a
+URxvt*color11 : #d5a30e
 ! blue
-*color4: #4957F3
-! bright blue
-*color12: #4D79FF
- 
+URxvt*color4  : #425387
+URxvt*color12 : #4a5a8d
 ! magenta
-*color5: #BF3E94
-! bright magenta
-*color13: #B641CC
- 
+URxvt*color5  : #965d98
+URxvt*color13 : #893c8c
 ! cyan
-*color6: #09A5B3
-! bright cyan
-*color14: #3CB6F3
- 
-! light grey
-*color7: #AEAEAE
+URxvt*color6  : #06989A
+URxvt*color14 : #12bccb
 ! white
-*color15: #DBDDE4
+URxvt*color7  : #D3D7CF
+URxvt*color15 : #EEEEEC

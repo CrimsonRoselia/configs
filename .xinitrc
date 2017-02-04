@@ -20,7 +20,6 @@ exec xscreensaver -no-splash &
 audio &
 
 perl ./code/i3dai/i3dai.pl &
-mpd &
 bash .fehbg &
 compton -b --backend glx &
 exec clipit &

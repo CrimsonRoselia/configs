@@ -1,0 +1,16 @@
+wintypes:
+{
+    tooltip =
+    {
+        fade = true;
+        shadow = false;
+        opacity = 0.75;
+        focus = true;
+    };
+
+    dock =
+    {
+        opacity = 0.8;
+    };
+};
+

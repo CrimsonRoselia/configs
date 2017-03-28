@@ -1,0 +1,12 @@
+setxkbmap no
+xrdb .Xresources
+xset -b
+
+razer-service &
+xinput set-prop "ETPS/2 Elantech Touchpad" "Synaptics Off" 1
+xinput set-prop 11 "libinput Accel Profile Enabled" 0, 0
+
+clipit & 
+
+compton -b --config ~/.compton --backend xrender &
+feh --bg-fill ~/wallpaper/medi.png &

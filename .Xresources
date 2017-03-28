@@ -8,22 +8,15 @@ URxvt*.matcher.button: 1
 URxvt*.background: [80]#000000
 URxvt*.foreground: grey90
 URxvt*.cursorColor: Green
-URxvt*.font: xft:Terminus:pixelsize=9,xft:Terminusmod:pixelsize=9,xft:Ubuntu Mono:pixelsize=9,xft:DejaVu Sans Mono:pixelsize=9
-URxvt*.boldFont: xft:Terminusmod:bold:pixelsize=9,xft:Ubuntu Mono:bold:pixelsize=9,xft:DejaVu Sans Mono:bold:pixelsize=9 
-URxvt*.italicFont: xft:Terminusmod:italic:pixelsize=9,xft:Ubuntu Mono:italic:pixelsize=9,xft:DejaVu Sans Mono:italic:pixelsize=9
-URxvt*.boldItalicFont: xft:Terminusmod:bold:italic:pixelsize=9,xft:Ubuntu Mono:bold:italic:pixelsize=9,xft:DejaVu Sans Mono:bold:italic:pixelsize=9
+URxvt*.font: xft:Terminus:pixelsize=14
+URxvt*.boldFont: xft:Terminus:bold:pixelsize=14
+URxvt*.italicFont: xft:Terminus:italic:pixelsize=14
+URxvt*.boldItalicFont: xft:Terminus:bold:italic:pixelsize=14
 URxvt*.colorUL: #00D1FF
 URxvt*.depth: 32
 URxvt*.shading: 20
 
-! Perls config
-
-URxvt*.url-select.launcher:  chromium
-URxvt*.url-select.underline: true
-URxvt*.keysym.M-u:           perl:url-select:select_next
-URxvt*.keysym.M-Escape:      perl:keyboard-select:activate
-URxvt*.keysym.M-s:           perl:keyboard-select:search
-
+! URxvt theme
 
 URxvt*color0  : #2E3436
 URxvt*color8  : #555753
@@ -48,3 +41,20 @@ URxvt*color14 : #12bccb
 ! white
 URxvt*color7  : #D3D7CF
 URxvt*color15 : #EEEEEC
+
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+! Use extended color scheme
+rofi.color-enabled:                  true
+rofi.color-normal:                   argb:00000000,  #D8DEE9 , argb:00000000,  #2e9ef4 ,  #1B2B34
+rofi.color-urgent:                   argb:00000000,  #F99157 , argb:00000000,  #F99157 ,  #1B2B34
+rofi.color-active:                   argb:00000000,  #6699CC , argb:00000000,  #6699CC ,  #1B2B34
+rofi.color-window:                   argb:CC000000,  #285577 , #2e9ef4 
+rofi.separator-style:                solid
+
+rofi.location: 1
+rofi.lines:    10
+rofi.hide-scrollbar: true
+rofi.font: Terminus 16px
+rofi.yoffset: 22
